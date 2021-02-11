@@ -10,7 +10,7 @@ social:
     icon_pack: fas
     link: pablo.arratia123@gmail.com
   - icon: orcid
-    icon_pack: fas
+    icon_pack: ai
     link: https://orcid.org/0000-0002-1152-4024
   - icon: github
     icon_pack: fab
@@ -18,6 +18,11 @@ social:
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/pablo-arratia-l%C3%B3pez-401763133/
+  - display:
+      header: false
+    link: https://www.researchgate.net/profile/Pablo_Arratia2
+    icon_pack: ai
+    icon: researchgate
 organizations:
   - name: Millennium Nucleus for Cardiovascular Magnetic Resonance
     url: https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.
@@ -43,10 +48,8 @@ I'm a mathematical engineer with an MSc degree in applied mathematics at the [Un
 
 In my leisure time, I like to learn new things on deep learning, play the piano, play football and listen to new musicians. 
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
-
 <!--StartFragment-->
 
-{{% staticref "media/CV.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+{{< icon name="download" pack="fas" >}} {{% staticref "media/CV.pdf" "newtab" %}}Download my CV{{% /staticref %}}
 
 <!--EndFragment-->
