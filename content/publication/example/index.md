@@ -9,7 +9,7 @@ authors:
   - Evelyn Cueva
   - Axel Osses
   - Benjamín Palacios
-publication_short: In *ICW*
+publication_short: ""
 abstract: In this work, we study a Lipschitz stability result in the
   reconstruction of a compactly supported initial temperature for the heat
   equation in $\mathbb{R}^n$, from measurements along a positive time interval
@@ -44,15 +44,13 @@ url_dataset: ""
 url_project: ""
 url_source: ""
 url_video: ""
-author_notes:
-  - Equal contribution
-  - Equal contribution
+author_notes: []
 doi: ""
-publication: In *Wowchemy Conference*
+publication: In arXiv
 projects: []
-date: 2013-07-01T00:00:00Z
+date: 2020-12-03T03:00:00.000Z
 url_slides: ""
-publishDate: 2017-01-01T00:00:00Z
+publishDate: 2017-01-01T00:00:00.000Z
 url_poster: ""
 url_code: ""
 ---
