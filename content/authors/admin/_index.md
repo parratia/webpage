@@ -28,7 +28,7 @@ organizations:
     url: https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.
 education:
   courses:
-    - course: MsC in Applied Mathematics
+    - course: MSc in Applied Mathematics
       institution: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
       year: 2020
     - course: Civil Mathematical Engineering
