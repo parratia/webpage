@@ -47,6 +47,6 @@ In my leisure time, I like to learn new things on deep learning, play the piano,
 
 <!--StartFragment-->
 
-{{% staticref "media/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+{{% staticref "media/CV.pdf" "newtab" %}}Download my CV{{% /staticref %}}
 
 <!--EndFragment-->
