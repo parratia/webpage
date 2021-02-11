@@ -29,16 +29,16 @@ organizations:
 education:
   courses:
     - course: MsC in Applied Mathematics
-      institution: Universidad de Chile
+      institution: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
       year: 2020
     - course: Civil Mathematical Engineering
-      institution: Universidad de Chile
+      institution: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
       year: 2020
     - course: BSc in Engineering, with specialization in mathematics
-      institution: Universidad de Chile
+      institution: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
       year: 2018
     - course: Minor in Quantum Physics
-      institution: Universidad de Chile
+      institution: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
       year: 2018
 email: pablo.arratia123@gmail.com
 superuser: true
