@@ -1,7 +1,6 @@
 ---
 title: Pablo Arratia
-role: Young researcher at Millennium Nucleus for Cardiovascular Magnetic
-  Resonance. MSc in applied mathematics at Universidad de Chile
+role: Young researcher at Millennium Nucleus for Cardiovascular Magnetic Resonance
 avatar_filename: photo.jpg
 bio: My research interests include inverse problems, partial differential
   equations, deep learning and physics-informed neural networks..
@@ -45,3 +44,9 @@ I'm a mathematical engineer with an MSc degree in applied mathematics at the [Un
 In my leisure time, I like to learn new things on deep learning, play the piano, play football and listen to new musicians. 
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "media/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
+
+<!--StartFragment-->
+
+{{% staticref "media/cv.pdf" "newtab" %}}Download my CV{{% /staticref %}}
+
+<!--EndFragment-->
