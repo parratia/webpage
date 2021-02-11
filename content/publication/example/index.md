@@ -1,79 +1,60 @@
 ---
-title: "An example conference paper"
-
-# Authors
-# If you created a profile for a user (e.g. the default `admin` user), write the username (folder name) here 
-# and it will be replaced with their full name and linked to their profile.
+title: Lipschitz stability for Backward Heat Equation with application to
+  Fluorescence Microscopy
+publication_types:
+  - "3"
 authors:
-- admin
-- Robert Ford
-
-# Author notes (optional)
-author_notes:
-- "Equal contribution"
-- "Equal contribution"
-
-date: "2013-07-01T00:00:00Z"
-doi: ""
-
-# Schedule page publish date (NOT publication's date).
-publishDate: "2017-01-01T00:00:00Z"
-
-# Publication type.
-# Legend: 0 = Uncategorized; 1 = Conference paper; 2 = Journal article;
-# 3 = Preprint / Working Paper; 4 = Report; 5 = Book; 6 = Book section;
-# 7 = Thesis; 8 = Patent
-publication_types: ["1"]
-
-# Publication name and optional abbreviated publication name.
-publication: In *Wowchemy Conference*
+  - Pablo Arratia
+  - Matías Courdurier
+  - Evelyn Cueva
+  - Axel Osses
+  - Benjamín Palacios
 publication_short: In *ICW*
-
-abstract: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.
-
-# Summary. An optional shortened abstract.
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum.
-
-tags: []
-
-# Display this page in the Featured widget?
+abstract: In this work, we study a Lipschitz stability result in the
+  reconstruction of a compactly supported initial temperature for the heat
+  equation in $\mathbb{R}^n$, from measurements along a positive time interval
+  and over an open set containing its support. We take advantage of the explicit
+  dependency of solutions to the heat equation with respect to the initial
+  condition. By means of Carleman estimates we obtain an analogous result for
+  the case when the observation is made along an exterior region ω×(τ,T), such
+  that the unobserved part $\mathbb{R}^n$∖ω is bounded. In the latter setting,
+  the method of Carleman estimates gives a general conditional logarithmic
+  stability result when initial temperatures belong to a certain admissible set,
+  and without the assumption of compactness of support. Furthermore, we apply
+  these results to deduce a similar result for the heat equation in R for
+  measurements available on a curve contained in $\mathbb{R}×[0,∞)$, from where
+  a stability estimate for an inverse problem arising in 2D Fluorescence
+  Microscopy is deduced as well. In order to further understand this Lipschitz
+  stability, in particular, the magnitude of its stability constant with respect
+  to the noise level of the measurements, a numerical reconstruction is
+  presented based on the construction of a linear system for the inverse problem
+  in Fluorescence Microscopy. We investigate the stability constant with the
+  condition number of the corresponding matrix.
+draft: false
 featured: true
-
-# Custom links (uncomment lines below)
-# links:
-# - name: Custom Link
-#   url: http://example.org
-
-url_pdf: ''
-url_code: ''
-url_dataset: ''
-url_poster: ''
-url_project: ''
-url_slides: ''
-url_source: ''
-url_video: ''
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder. 
+tags: []
+slides: ""
+url_pdf: ""
 image:
-  caption: 'Image credit: [**Unsplash**](https://unsplash.com/photos/pLCdAaMFLTE)'
+  caption: ""
   focal_point: ""
   preview_only: false
-
-# Associated Projects (optional).
-#   Associate this publication with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `internal-project` references `content/project/internal-project/index.md`.
-#   Otherwise, set `projects: []`.
-projects:
-- example
-
-# Slides (optional).
-#   Associate this publication with Markdown slides.
-#   Simply enter your slide deck's filename without extension.
-#   E.g. `slides: "example"` references `content/slides/example/index.md`.
-#   Otherwise, set `slides: ""`.
-slides: example
+summary: ""
+url_dataset: ""
+url_project: ""
+url_source: ""
+url_video: ""
+author_notes:
+  - Equal contribution
+  - Equal contribution
+doi: ""
+publication: In *Wowchemy Conference*
+projects: []
+date: 2013-07-01T00:00:00Z
+url_slides: ""
+publishDate: 2017-01-01T00:00:00Z
+url_poster: ""
+url_code: ""
 ---
 
 {{% callout note %}}
