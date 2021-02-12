@@ -44,9 +44,9 @@ experience:
     date_start: '2019-03-05'
     date_end: '2020-10-02'
     description: |2-
-        Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case   
+        Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case.   
     
-        * Technologies used: Matlab, Python, Tensorflow 
+        * Technologies used: Matlab, Python, Tensorflow, Google Colab, High-Performance Computing with   
     
   - title: First Director
     company: Mathematical Engineering Students Center at Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
@@ -54,5 +54,5 @@ experience:
     location: Santiago, Chile
     date_start: '2017-04-03'
     date_end: '2018-05-02'
-    description: Organize activities for the students community of mathematical engineer career. 
+    description: Organize activities for the students community of the mathematical engineer career. I organized a baby football tournament, seminars with professors, among others activities.
 ---
