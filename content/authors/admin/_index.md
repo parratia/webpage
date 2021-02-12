@@ -5,8 +5,8 @@ avatar_filename: avatar.jpg
 bio: My research interests include inverse problems, partial differential
   equations, deep learning and physics-informed neural networks..
 interests:
-  - -Inverse Problems -Partial Differential Equations -Deep Learning
-    -Physics-Informed Neural Networks
+  - "- Inverse Problems - Partial Differential Equations - Deep Learning -
+    Physics-Informed Neural Networks"
 social:
   - icon: envelope
     icon_pack: fas
