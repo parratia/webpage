@@ -22,24 +22,32 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: CEO
-    company: GenCoin
-    company_url: ''
-    location: California
-    date_start: '2017-01-01'
+  - title: Young researcher
+    company: Millennium Nucleus for Cardiovascular Magnetic Resonance
+    company_url: https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.
+    location: Santiago, Chile
+    date_start: '2020-09-21'
     date_end: ''
     description: |2-
         Responsibilities include:
         
-        * Analysing
+        * Learning about MRI
         * Modelling
+        * Programming
         * Deploying
         
-  - title: Professor
-    company: University X
+  - title: Master Project
+    company: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
+    company_url: https://www.uchile.cl/portal/english-version/faculties-and-institutes/49769/faculty-of-physical-and-mathematical-sciences
+    location: Santiago, Chile
+    date_start: '2019-03-05'
+    date_end: '2020-10-02'
+    description: Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case  
+    - title: First Director
+    company: Mathematical Engineering Students Center at Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
     company_url: ''
-    location: California
-    date_start: '2016-01-01'
-    date_end: '2016-12-31'
-    description: Taught electronic engineering and researched semiconductor physics.
+    location: Santiago, Chile
+    date_start: '2017-04-03'
+    date_end: '2018-05-02'
+    description: Organize activities for the students community of mathematical engineer career. 
 ---
