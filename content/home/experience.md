@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: Young researcher
     company: Millennium Nucleus for Cardiovascular Magnetic Resonance
-    company_url: https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.
+    company_url: https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases/
     location: Santiago, Chile
     date_start: '2020-09-21'
     date_end: ''
@@ -38,7 +38,7 @@ experience:
         
   - title: Master Project
     company: Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
-    company_url: https://www.uchile.cl/portal/english-version/faculties-and-institutes/49769/faculty-of-physical-and-mathematical-sciences
+    company_url: https://www.uchile.cl/portal/english-version/faculties-and-institutes/49769/faculty-of-physical-and-mathematical-sciences/
     location: Santiago, Chile
     date_start: '2019-03-05'
     date_end: '2020-10-02'
