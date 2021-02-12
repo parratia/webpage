@@ -43,6 +43,7 @@ experience:
     date_start: '2019-03-05'
     date_end: '2020-10-02'
     description: Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case  
+    
     - title: First Director
     company: Mathematical Engineering Students Center at Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
     company_url: ''
