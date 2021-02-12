@@ -26,7 +26,7 @@ item:
 - certificate_url: https://www.coursera.org/account/accomplishments/verify/6GCUA8WHP68H/
   date_end: "2020-09-30"
   date_start: "2020-09-01"
-  description: Deep learning techniques applied to medical diagnosis
+  description: Deep learning techniques applied to medical diagnosis.
   organization: Coursera
   organization_url: https://www.coursera.org
   title: AI for Medical Diagnosis
