@@ -10,6 +10,7 @@ interests:
   - Finite Element Method
   - Deep Learning
   - Physics-Informed Neural Networks
+  - Medical Imaging
 social:
   - icon: envelope
     icon_pack: fas
