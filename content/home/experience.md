@@ -28,7 +28,8 @@ experience:
     location: Santiago, Chile
     date_start: '2020-09-21'
     date_end: ''
-    description: Obtain cardiac strain parameters from cine-MRI sequences with physics-informed neural networks. Responsibilities include:
+    description: |2-
+        Obtain cardiac strain parameters from cine-MRI sequences with physics-informed neural networks. Responsibilities include:
         
         * Learning about MRI
         * Modelling
@@ -42,7 +43,8 @@ experience:
     location: Santiago, Chile
     date_start: '2019-03-05'
     date_end: '2020-10-02'
-    description: Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case   
+    description: |2-
+        Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case   
     
         * Technologies used: Matlab, Python, Tensorflow 
     
