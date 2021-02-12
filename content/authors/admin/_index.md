@@ -4,7 +4,9 @@ role: Young researcher
 avatar_filename: avatar.jpg
 bio: My research interests include inverse problems, partial differential
   equations, deep learning and physics-informed neural networks..
-interests: []
+interests:
+  - Inverse Problems; Partial Differential Equations; Deep Learning;
+    Physiscs-Informed Neural Networks
 social:
   - icon: envelope
     icon_pack: fas
