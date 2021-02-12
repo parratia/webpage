@@ -46,7 +46,7 @@ email: pablo.arratia123@gmail.com
 superuser: true
 highlight_name: false
 ---
-I'm a mathematical engineer with an MSc degree in applied mathematics at the [University of Chile](https://www.uchile.cl/postgrados/111195/applied-mathematics). Currently, I'm working as a young researcher at the [Millennium Nucleus for Cardiovascular Magnetic Resonance](https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.), where the goal is to reconstruct strain parameters from cine-MRI sequences with physics-informed neural networks.
+I'm a mathematical engineer with an MSc degree in applied mathematics at the [University of Chile](https://www.uchile.cl/postgrados/111195/applied-mathematics). Currently, I'm working as a young researcher at the [Millennium Nucleus for Cardiovascular Magnetic Resonance](https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.), where the goal is to reconstruct strain parameters from cine-MRI sequences with an image registration approach based on physics-informed neural networks.
 
 In my leisure time, I like to learn new things on deep learning, play the piano, play football and listen to new musicians. 
 
