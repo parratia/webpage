@@ -25,7 +25,7 @@ feature:
   icon_pack: custom
   name: Tensorflow
 - description: 90%
-  icon: Matlab_Logo
+  icon: icons8-matlab
   icon_pack: custom
   name: Matlab
 
