@@ -46,7 +46,7 @@ experience:
     description: |2-
         Stability for an inverse problem related to a 2D model of Light Sheet Fluorescence Microscopy based on heat equation and extension of the direct model to the 3D case.   
     
-        * Technologies used: Matlab, Python, Tensorflow, Google Colab, High-Performance Computing with   
+        * Technologies used: Matlab, Python, Tensorflow, Google Colab, High-Performance Computing with [NLHPC](https://www.nlhpc.cl/)  
     
   - title: First Director
     company: Mathematical Engineering Students Center at Universidad de Chile, Facultad de Ciencias Físicas y Matemáticas
