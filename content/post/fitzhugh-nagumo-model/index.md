@@ -25,15 +25,10 @@ The most important characteristic of excitable media is the almost immediate dam
 
 The FitzHugh-Nagumo model is a system of two variables and two PDEs. The variables are an **activator** (the electric potential $V$) and an **inhibitor** (a variable $R$ that describes the voltage-dependent probability of the pores in the membrane being open and ready to transmit ionic current).
 
-$$\begin{array}{rcll}
-\dfrac{\partial V}{\partial t}&=&\div(\sigma\nabla V)+\nu V(\alpha-V)(V-1)- R + I & \text{, in }\Omega\times[0,T]\\
-
+$$\begin{array}{rcll}\dfrac{\partial V}{\partial t}&=&\div(\sigma\nabla V)+\nu V(\alpha-V)(V-1)- R + I & \text{, in }\Omega\times[0,T]\\
 \dfrac{\partial R}{\partial t}&=&\delta (V-Rd) & \text{, in } \Omega\times[0,T]\\
-
 \dfrac{\partial V}{\partial n}&=& 0 & \text{, on} \partial \Omega \times [0,T]\\
-
 V(x,0) &=& V_0 & \text{, for} x\in\Omega\\
-
 R(x,0) &=& R_0 & \text{, for} x\in\Omega
 \end{array}$$
 where
@@ -43,7 +38,7 @@ where
 - $\nu$: excitation rate, with $\nu>0$.
 - $\alpha$: threshold for excitation, with $0<\alpha<1/2$.
 - $\delta$: excitation decay, with $0<\delta$.
-- $d$: recovery decay, with $\gamma>0$.
+- $d$: recovery decay, with $d>0$.
 - $I$: stimulating current. 
 
 ## Solving the equation. Finite differences scheme
