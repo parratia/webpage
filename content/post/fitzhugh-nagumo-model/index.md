@@ -3,6 +3,11 @@ title: FitzHugh-Nagumo model
 subtitle: "This two-dimensional system of PDE models an excitable system such
   as  or neurons. It is solved by means of a finite differences scheme. "
 date: 2021-02-15T16:24:21.868Z
+summary: "This two-dimensional system of PDE models an excitable system such as
+  electric signals on heart tissue. It is solved by means of a finite
+  differences scheme. Also, an inverse problem is established and partially
+  solved: reconstruct cardiac tissue properties by using measurements available
+  from an ECG. "
 draft: false
 featured: false
 image:
@@ -14,4 +19,4 @@ Heart disease is one of the leading causes of death in the world, thus it is nec
 
 The most important characteristic of excitable media is the almost immediate damping out of signals below a certain threshold. On the other hand, signals exceeding this threshold propagate without damping. In cardiac cells, ions move through small pores in the cellular membrane which can be either open (excited) or closed (rest) making the heart muscle pumping blood in and out.
 
-The FitzHugh-Nagumo model is a system of two variables and two PDEs. The variables are an \emph{activator} and an \emph{inhibitor}.
+The FitzHugh-Nagumo model is a system of two variables and two PDEs. The variables are an **activator** and an **inhibitor**.
