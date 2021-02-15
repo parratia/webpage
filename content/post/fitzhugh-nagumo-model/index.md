@@ -1,7 +1,10 @@
 ---
 title: FitzHugh-Nagumo model
-subtitle: "This two-dimensional system of PDE models an excitable system such
-  as  or neurons. It is solved by means of a finite differences scheme. "
+subtitle: "This two-dimensional system of PDE models an excitable system such as
+  electric signals on heart tissue. It is solved by means of a finite
+  differences scheme. Also, an inverse problem is established and partially
+  solved: reconstruct cardiac tissue properties by using measurements available
+  from an ECG. "
 date: 2021-02-15T16:24:21.868Z
 summary: "This two-dimensional system of PDE models an excitable system such as
   electric signals on heart tissue. It is solved by means of a finite
