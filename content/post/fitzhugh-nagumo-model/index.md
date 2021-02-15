@@ -35,8 +35,7 @@ $$\begin{array}{rcll}
 V(x,0) &=& V_0 & \text{, for} x\in\Omega\\
 
 R(x,0) &=& R_0 & \text{, for} x\in\Omega
-\end{array}
-$$
+\end{array}$$
 where
 - $V(t,x)$: the voltage or transmembrane potential in the point $x\in\Omega$ and time $t\in[0,T]$. 
 - $R(t,x)$: inhibitor or recovery variable.
