@@ -31,9 +31,9 @@ $$\begin{array}{rcll}\dfrac{\partial V}{\partial t}&=& \text{div}(\sigma\nabla V
 
 \dfrac{\partial V}{\partial n}&=& 0 & \text{, on} \partial \Omega \times [0,T] \\\\\\
 
-V(x,0) &=& V_0 & \text{, for} x\in\Omega \\\\\\
+V(x,0) &=& V\_0 & \text{, for} x\in\Omega \\\\\\
 
-R(x,0) &=& R_0 & \text{, for} x\in\Omega
+R(x,0) &=& R\_0 & \text{, for} x\in\Omega
 \end{array}$$
 where
 - $V(t,x)$: the voltage or transmembrane potential in the point $x\in\Omega$ and time $t\in[0,T]$. 
