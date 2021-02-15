@@ -44,7 +44,7 @@ where
 - $d$: recovery decay, with $d>0$.
 - $I$: stimulating current. 
 
-## Solving the equation. Finite differences scheme
+## Direct problem. Solving the equation with finite differences
 
 A Crank-Nicolson scheme is used to numerically solve the system, i.e., a convex comibination between the explicit and implicit schemes with parameter $\theta$:
 
@@ -54,5 +54,25 @@ $$\begin{array}{cll}
  &&+(1-\theta)\sigma\_{i,j} \left(\dfrac{V^{n+1}\_{i,j+1}-2V^{n+1}\_{i,j}+V^{n+1}\_{i,j-1}}{h\_x^2}+\dfrac{V^{n+1}\_{i,j}-2V^{n+1}\_{i,j}+V^{n+1}\_{i-1,j}}{h\_y^2}\right) \\\\
  &&+(1-\theta)\left((\sigma\_x)\_{i,j}\dfrac{V^{n+1}\_{i,j+1}-V^{n+1}\_{i,j}}{h\_x}+(\sigma\_y)\_{i,j}\dfrac{V^{n+1}\_{i+1,j}-V^{n+1}\_{i,j}}{h\_y}\right) \\\\
  &&+\nu V^{n}\_{i,j}(V^{n}\_{i,j}-\alpha)(1-V^{n}\_{i,j})- \theta \delta R^{n}\_{i,j}-(1-\theta)\delta R^{n+1}\_{i,j} \\\\
-\dfrac{R^{n+1}\_{i,j}-R^n\_{i,j}}{\Delta t}&=&\theta\delta (V^{n}\_{i,j}-R^{n}\_{i,j}d)+(1-\theta)\delta (V^{n+1}\_{i,j}-R^{n+1}\_{i,j}d) \end{array}$$     
+\dfrac{R^{n+1}\_{i,j}-R^n\_{i,j}}{\Delta t}&=&\theta\delta (V^{n}\_{i,j}-R^{n}\_{i,j}d)+(1-\theta)\delta (V^{n+1}\_{i,j}-R^{n+1}\_{i,j}d) \end{array}$$ 
+
+### Simulations
+
+#### Normal heart   
+
+{{< video library="true" src="Corazon_sano.mp4" controls="yes" >}}
+
+#### Reentrant waves
+
+{{< video library="true" src="Corazon_no_sano.mp4" controls="yes" >}}
+
+#### Ventricular fibrilation  
+
+{{< video library="true" src="Fibrilacion.mp4" controls="yes" >}}
+
+### Code and Poster
+
+{{% staticref "media/Poster_EDPN.pdf" "newtab" %}}You can download a poster here.{{% /staticref %}}. 
+
+## Inverse problem
 
