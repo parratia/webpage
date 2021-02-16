@@ -3,7 +3,8 @@ title: Pablo Arratia
 role: Young researcher
 avatar_filename: avatar.jpg
 bio: My research interests include inverse problems, partial differential
-  equations, deep learning and physics-informed neural networks..
+  equations, deep learning, physics-informed neural networks and medical
+  imaging.
 interests:
   - Inverse Problems
   - Partial Differential Equations
