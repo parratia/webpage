@@ -51,9 +51,9 @@ email: pablo.arratia123@gmail.com
 superuser: true
 highlight_name: false
 ---
-I'm a mathematical engineer with an MSc degree in applied mathematics at the [University of Chile](https://www.uchile.cl/postgrados/111195/applied-mathematics). My research interests lie in Inverse Problems, PDEs and Deep Learning. I like to apply my knowledge in those areas in real-world problems, especially in those coming from the biomedicine area and medical imaging. 
+I'm a mathematical engineer with an MSc degree in applied mathematics at the [University of Chile](https://www.uchile.cl/postgrados/111195/applied-mathematics). My research interests lie in Inverse Problems, PDEs and Deep Learning. I like to apply my knowledge in real-world problems, especially in those arising from the biomedicine area and medical imaging. 
 
-Currently, I'm working as a young researcher at the [Millennium Nucleus for Cardiovascular Magnetic Resonance](https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.), where the goal is to reconstruct strain parameters from cine-MRI sequences with an image registration approach based on physics-informed neural networks. These strain parameters are, nowadays, being used to make better diagnosis and prognosis of heart's diseases.
+Currently, I'm working as a young researcher at the [Millennium Nucleus for Cardiovascular Magnetic Resonance](https://www.iniciativamilenio.cl/en/millennium-nucleus-in-cardiovascular-magnetic-resonance/#:~:text=The%20mission%20of%20the%20Millennium,and%20treatment%20of%20cardiovascular%20diseases.), where the goal of the project I'm carrying out is to reconstruct strain parameters from cine-MRI sequences with an image registration approach based on physics-informed neural networks. These strain parameters are, nowadays, being used to make better diagnosis and prognosis of heart's diseases.
 
 In my leisure time, I like to learn new things about deep learning, play the piano, play football, take a walk with Brunildo and listen to new musicians. 
 
