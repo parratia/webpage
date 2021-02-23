@@ -98,17 +98,23 @@ g(y) &:=& \dfrac{1}{c}p(s,y)\text{exp}\left(\displaystyle\int_{x_h}^s\lambda(\ta
 hence, 
 $$g(y) = \displaystyle\int_{\mathbb{R}}\dfrac{f(r)}{\sqrt{4\pi\sigma(y)}}\text{exp}\left(-\dfrac{(r-y)^2}{4\sigma(y)}\right)$$ 
 
-Thus, we may consider the heat equation in $\mathbb{R}$:
+Thus, considering the heat equation in $\mathbb{R}$:
 
 $$\begin{cases}\begin{array}{rcll}
-u_t-u_{yy} &=& 0, & (y,t)\in \mathbb{R}\times (0,+\infty),\\
-u(y,0) & = & f(y), & \text{si } y\in Y_s,\\
-u(y,0) & = & 0, & \text{si } y\notin Y_s, \\
+u_t-u_{yy} &=& 0, & (y,t)\in \mathbb{R}\times (0,+\infty),\\\\
+u(y,0) & = & f(y), & \text{si } y\in Y_s,\\\\
+u(y,0) & = & 0, & \text{si } y\notin Y_s, \\\\
 \displaystyle\lim_{|y|\to \infty}u(y,t) & = & 0, & \forall t>0   
 \end{array}\end{cases}$$
 
-Hence,
+we have
+
+$$u(y,\sigma(y)) = \dint_{\R}\dfrac{f(r)}{\sqrt{4\pi \sigma(y)}}\text{exp}\left(-\dfrac{(y-r)^2}{4\sigma(y)}\right)dr = g(y)$$
+
+That is, we can see $g$ as the measurements or available information, $f$ is the initial condition related to our unknown $\mu$ and $\sigma$ may be related to the time variable for the heat kernel. Thus 
 
 > The fluorophore distribution $\mu$ is related to the initial condition of the heat equation.
 
-In fact, we can see $g$ as the measurements, $f$ is the initial condition related to our unknown $\mu$ and $\sigma$ may be related to the time variable for the heat kernel.
+Observations of $u$ are available on the curve $\Gamma:={(y,\sigma(y)): y\in Y_s}\subseteq \mathbb{R}\times[0,T+\infty)$, which turns out to have the following form:
+
+{{< figure library="true" src="gamma.png" title="Measurements of $u$ are available on the curve $\Gamma$." numbered="true">}}
