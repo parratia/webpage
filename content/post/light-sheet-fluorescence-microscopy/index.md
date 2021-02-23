@@ -33,7 +33,7 @@ Thus, the direct model is divided into two steps: **illumination** or **excitati
 
 As a first idea, a 2D model is set, so, instead of considering a 3D specimen, we illuminate a 2D object and, instead of illuminating plane by plane, we illuminate lines or fibres of the specimen emitting laser beams at different heights. To move from this 2D model to the 3D one, the plane illumination shall be modelled with a collection of laser beams.
 
-{{< figure library="true" src="LSFM_2D.pdf" title="2D model for LSFM." numbered="true">}}
+{{< figure library="true" src="LSFM_2D.png" title="2D model for LSFM." numbered="true">}}
 
 ### Illumination step
 
