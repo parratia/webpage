@@ -35,6 +35,10 @@ As a first idea, a 2D model is set, so, instead of considering a 3D specimen, we
 
 {{< figure library="true" src="LSFM_2D.png" title="2D model for LSFM." numbered="true">}}
 
+In what follows, the fluorophore distribution shall be denoted $\mu$ and will be the unknown for the inverse problem. An example of this function is given in the next figure:
+
+{{< figure library="true" src="mu.PNG" title="Fluorophore distribution $\mu$." numbered="true">}}
+
 ### Illumination step. Fermi pencil-beam equation.
 
 For the illumination step, it is considered the Fermi pencil-beam equation, which describes the transport of photons in a highly scattering and highly peaked forward regime when emitted from height $y=0$. The equation is as follows:
@@ -77,5 +81,9 @@ $$p_h(x,y,\boldsymbol{\theta}) = \displaystyle\int_{-\infty}^{0}w_h((x,y)+r\bold
 We are interested in what is measured in pixel $s$ and, also, we assume that cameras are collimated. Hence, the final measurement obtained at pixel $s$ when illuminating at height $h$ is given by the next expression:
 
 $$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right)\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr$$ 
+
+An example for measurements obtained when illuminating by left and right the source in figure 2 and measuring with upper and lower cameras is given in the next figure:
+
+{{< figure library="true" src=mediciones_finales.PNG" title="Final measurments given by the model." numbered="true">}}
 
 ## The inverse problem and the heat equation.
