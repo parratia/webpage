@@ -84,6 +84,6 @@ $$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\
 
 An example for measurements obtained when illuminating by left and right the source in figure 2 and measuring with upper and lower cameras is given in the next figure:
 
-{{< figure library="true" src=mediciones_finales.PNG" title="Final measurments given by the model." numbered="true">}}
+{{< figure library="true" src="mediciones_finales.PNG" title="Final measurments given by the model." numbered="true">}}
 
 ## The inverse problem and the heat equation.
