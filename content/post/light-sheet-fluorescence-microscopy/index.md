@@ -39,10 +39,18 @@ As a first idea, a 2D model is set, so, instead of considering a 3D specimen, we
 
 For the illumination step, it is considered the Fermi pencil-beam equation, which describes the transport of photons in a highly scattering and highly peaked forward regime when emitted from height $y=0$. The equation is as follows:
 
-$$\left\{ \begin{array}{rcl}
+$$\left\{\begin{array}{rcl}
 (\partial_x + \theta_y \partial_y +\lambda(x,h) - \psi(x,h) \partial_{ \theta_y}^2)u(x,y,\theta_y) & = & 0 \\
 u(x_h,y,\theta_y) & = & \delta_h(y)\delta_0(\theta_y)\\
 x\in(x_h,\infty), y\in \mathbb{R}, \theta_y\in \mathbb{R} &&
 \end{array}\right.$$
+
+But we are interested in the function $v_h(x,y)$ that describes the photon distribution independent of the angle $\theta_y$:
+
+$$v_h(x,y)=\dint_{\R}u(x,y,\theta_y)d\theta_y=\text{exp} \left(-\dint_{x_h}^x\lambda(\tau,h)d\tau\right) \dfrac{1}{\alpha(x,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(y-h)^2}{2\alpha^2(x,h)}\right)$$
+
+Hence, the fluorescent source $w_h(x,y)$, that is, the fluorophores that have been excited, is given by
+
+$$w_h(x,y) = c \cdot \mu(x,y) \cdot v_h(x,y)$$
 
 ### Fluorescence step
