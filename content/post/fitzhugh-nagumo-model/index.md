@@ -20,9 +20,11 @@ image:
 ---
 ## Overview
 
-Heart disease is one of the leading causes of death in the world, thus it is necessary a fully-understanding of its biomechanical behaviour. One attempt to do so is the FitzHugh-Nagumo model, one of the most successful mathematical models that describe excitable media, that is, materials consisting of elementary segments with well-defined res state, a threshold for excitation and a diffusive-type coupling to its nearest neighbours. Hence, this model is useful for modelling different phenomena such as nerve pulses, spreading of forest fires or certain types of chemical reactions. In particular, it is used in cardiac electrophysiology to qualitatively describe the voltage propagation through the cardiac tissue. Consequently, it is possible to gain some insights on heart imparities such as arrhythmias.  
+Heart disease is one of the leading causes of death in the world, thus it is necessary a fully-understanding of its biomechanical behaviour. One attempt to do so is the FitzHugh-Nagumo model, one of the most successful mathematical models that describe excitable media, that is, materials consisting of elementary segments with well-defined rest state, a threshold for excitation and a diffusive-type coupling to its nearest neighbours. Hence, this model is useful for modelling different phenomena such as nerve pulses, spreading of forest fires or certain types of chemical reactions. In particular, it is used in cardiac electrophysiology to qualitatively describe the voltage propagation through the cardiac tissue. Consequently, from this model, it is possible to gain some insights about heart imparities such as arrhythmias.  
 
 The most important characteristic of excitable media is the almost immediate damping out of signals below a certain threshold. On the other hand, signals exceeding this threshold propagate without damping. In cardiac cells, ions move through small pores in the cellular membrane which can be either open (excited) or closed (rest) making the heart muscle pumping blood in and out.
+
+In what follows, the equation is described, a direct model is solved with a finite differences scheme and an inverse problem is established to reconstruct properties of the heart tissue from measurements given by an ECG
 
 ## The equation
 
@@ -72,7 +74,10 @@ $$\begin{array}{cll}
 
 ### Code and Poster
 
-{{% staticref "media/Poster_EDPN.pdf" "newtab" %}}You can download a poster here.{{% /staticref %}}. 
+{{% staticref "media/Poster_EDPN.pdf" "newtab" %}}You can download a poster here{{% /staticref %}}. 
 
 ## Inverse problem
 
+For this toy model, we could suppose as known the parameters $\num \alpha, \delta$ and $d$ while $\sigma$ remains unknown. This function contains information about the properties of the cardiac tissue, hence, it would be helpful to know it and make a good prognosis. The inverse problem proposed is to reconstruct this function $\sigma$ from measurements obtained from an ECG.
+
+An ECG is a graph of voltage versus time that describes the electrical activity in the heart from electrodes located in the skin. 
