@@ -72,7 +72,7 @@ $$\begin{cases}\begin{array}{rl}
 
 The boundary condition states that there are no external sources. There exists a unique solution for this equation: 
 
-$$p_h(x,y,\boldsymbol{\theta}) = \dint_{-\infty}^{0}w_h((x,y)+r\boldsymbol{\theta})\text{exp}\left(-\dint_r^0a((x,y)+\tau\boldsymbol{\theta})d\tau\right)dr$$
+$$p_h(x,y,\boldsymbol{\theta}) = \displaystyle\int_{-\infty}^{0}w_h((x,y)+r\boldsymbol{\theta})\text{exp}\left(-\displaystyle\int_r^0a((x,y)+\tau\boldsymbol{\theta})d\tau\right)dr$$
 
 We are interested in what is measured in pixel $s$ ando, also, we assume that cameras are collimated. Hence, the final measurement is given by
 
