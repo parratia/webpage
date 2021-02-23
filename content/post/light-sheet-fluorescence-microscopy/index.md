@@ -18,7 +18,9 @@ image:
 ---
 ## Overview
 
-This post describes the research developed during my MSc thesis in applied mathematics. The inverse problem that I shall explain was firstly established by Evelyn Cueva in her PhD thesis, where she also solved numerically this problem and a uniqueness theoretical result was demonstrated. My work consisted of demonstrating the stability of the inverse problem but I also proposed a new numerical algorithm based on deep learning techniques.
+This post describes in a non-rigorous way the research developed during my MSc thesis in applied mathematics. The inverse problem that I shall explain was firstly established by Evelyn Cueva in her PhD thesis, where she also solved numerically this problem and a uniqueness theoretical result was demonstrated. My work consisted of demonstrating the stability of the inverse problem but I also proposed a new numerical algorithm based on deep learning techniques.
+
+{{< icon name="download" pack="fas" >}} {{% staticref "media/presentacion_cortada.pdf" "newtab" %}}You may download the presentation (in spanish) of my thesis here.{{% /staticref %}}  
 
 The Light Sheet Fluorescence Microscope (LSFM in what follows) is a modern technique that allows biological researchers to observe live specimens and dynamical processes at high resolution in space and time. In fluorescence microscopes, first, some relevant structures of the tissue are labelled with *fluorophores*, particles that can fluoresce. Then, a light source excites the fluorophores and finally, they emit light at some frequency that is measured by cameras as shown in the figure. 
 
