@@ -40,8 +40,8 @@ As a first idea, a 2D model is set, so, instead of considering a 3D specimen, we
 For the illumination step, it is considered the Fermi pencil-beam equation, which describes the transport of photons in a highly scattering and highly peaked forward regime when emitted from height $y=0$. The equation is as follows:
 
 $$\left\{\begin{array}{rcl}
-(\partial_x + \theta_y \partial_y +\lambda(x,h) - \psi(x,h) \partial_{ \theta_y}^2)u(x,y,\theta_y) & = & 0 \\
-u(x_h,y,\theta_y) & = & \delta_h(y)\delta_0(\theta_y)\\
+(\partial_x + \theta_y \partial_y +\lambda(x,h) - \psi(x,h) \partial_{ \theta_y}^2)u(x,y,\theta_y) & = & 0 \\\\
+u(x_h,y,\theta_y) & = & \delta_h(y)\delta_0(\theta_y)\\\\
 x\in(x_h,\infty), y\in \mathbb{R}, \theta_y\in \mathbb{R} &&
 \end{array}\right.$$
 
