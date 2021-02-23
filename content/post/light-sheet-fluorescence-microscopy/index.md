@@ -75,13 +75,11 @@ $$p_h(x,y,\boldsymbol{\theta}) = \displaystyle\int_{-\infty}^{0}w_h((x,y)+r\bold
 
 We are interested in what is measured in pixel $s$ and, also, we assume that cameras are collimated. Hence, the final measurement obtained at pixel $s$ when illuminating at height $h$ is given by the next expression:
 
-$$
 \begin{equation}\label{eq:measurements}
 \begin{array}{rcl}
 p(s,h) & = & c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right) \cdot \\\\ &&\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr
 \end{array}
-\end{equation}
-$$ 
+\end{equation} 
 
 An example for measurements obtained when illuminating by left and right the source in figure 2 and measuring with upper and lower cameras is given in the next figure:
 
@@ -103,7 +101,7 @@ $$g(y) = \displaystyle\int_{\mathbb{R}}\dfrac{f(r)}{\sqrt{4\pi\sigma(y)}}\text{e
 Thus, we may consider the heat equation in $\mathbb{R}$:
 
 $$\begin{cases}\begin{array}{rcll}
-u_t-u_{yy} &=& 0, & (y,t)\in \R\times (0,+\infty),\\
+u_t-u_{yy} &=& 0, & (y,t)\in \mathbb{R}\times (0,+\infty),\\
 u(y,0) & = & f(y), & \text{si } y\in Y_s,\\
 u(y,0) & = & 0, & \text{si } y\notin Y_s, \\
 \displaystyle\lim_{|y|\to \infty}u(y,t) & = & 0, & \forall t>0   
