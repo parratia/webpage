@@ -47,7 +47,8 @@ x\in(x_h,\infty), y\in \mathbb{R}, \theta_y\in \mathbb{R} &&
 
 But we are interested in the function $v_h(x,y)$ that describes the photon distribution independent of the angle $\theta_y$:
 
-$$v_h(x,y)=\displaystyle\int_{\mathbb{R}}u(x,y,\theta_y)d\theta_y=\text{exp} \left(-\displaystyle\int_{x_h}^x\lambda(\tau,h)d\tau\right) \dfrac{1}{\alpha(x,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(y-h)^2}{2\alpha^2(x,h)}\right)$$
+$$\begin{array{rcl} v_h(x,y)&=&\displaystyle\int_{\mathbb{R}}u(x,y,\theta_y)d\theta_y \\\\
+&=&\text{exp} \left(-\displaystyle\int_{x_h}^x\lambda(\tau,h)d\tau\right) \dfrac{1}{\alpha(x,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(y-h)^2}{2\alpha^2(x,h)}\right) \end{array}$$
 
 Hence, the fluorescent source $w_h(x,y)$, that is, the fluorophores that have been excited, is given by
 
