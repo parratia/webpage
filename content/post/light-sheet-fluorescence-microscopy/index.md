@@ -70,3 +70,12 @@ $$\begin{cases}\begin{array}{rl}
 \displaystyle\lim_{t\to \infty}p_h((x,y)-t\boldsymbol{\theta},\boldsymbol{\theta}) = 0, & \forall (x,y)\in \mathbb{R}^2, \boldsymbol{\theta}\in \mathbb{S}^1
 \end{array}\end{cases}$$
 
+The boundary condition states that there are no external sources. There exists a unique solution for this equation: 
+
+$$p_h(x,y,\boldsymbol{\theta}) = \dint_{-\infty}^{0}w_h((x,y)+r\boldsymbol{\theta})\text{exp}\left(-\dint_r^0a((x,y)+\tau\boldsymbol{\theta})d\tau\right)dr$$
+
+We are interested in what is measured in pixel $s$ ando, also, we assume that cameras are collimated. Hence, the final measurement is given by
+
+$$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right)\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr$$ 
+
+## The inverse problem and the heat equation.
