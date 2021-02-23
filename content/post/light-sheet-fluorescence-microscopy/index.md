@@ -56,7 +56,7 @@ $$\begin{array}{rcl} v_h(x,y)&=&\displaystyle\int_{\mathbb{R}}u(x,y,\theta_y)d\t
 
 Hence, the fluorescent source $w_h(x,y)$ (that is, the fluorophores that have been excited) is given by
 
-$$w_h(x,y) = c \cdot \mu(x,y) \cdot v_h(x,y)$$
+$$w_h(x,y) = \nabla c \cdot \mu(x,y) \cdot v_h(x,y)$$
 
 ### Fluorescence step. Radiative transfer equation.
 
@@ -84,6 +84,9 @@ $$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\
 
 An example for measurements obtained when illuminating by left and right the source in figure 2 and measuring with upper and lower cameras is given in the next figure:
 
-{{< figure library="true" src="mediciones_finales.PNG" title="Final measurments given by the model." numbered="true">}}
+{{< figure library="true" src="mediciones_finales.PNG" title="Final measurements given by the model." numbered="true">}}
 
 ## The inverse problem and the heat equation.
+
+The inverse problem consists of reconstructing the fluorophore distribution $\mu$ from measurements $p(s,h)$. We suppose as known the functions $\lambda$, $a$ and $\psi$. The latter function may be seen as the convolution of $\mu(s,\cdot)\times e^{-\int_{\cdot}a(s,\tau)d\tau}$ with the heat kernel 
+
