@@ -1,5 +1,5 @@
 ---
-title: Light Sheet Fluorescence Microscopy
+title: Light Sheet Fluorescence Microscopy. MSc thesis.
 subtitle: "A stability result for the reconstruction of fluorophore distribution
   is established for the 2D Light Sheet Fluorescence Microscopy model. The
   result is equivalent to a Lipschitz-type stability for the reconstruction of
@@ -56,16 +56,15 @@ $$\begin{array}{rcl} v_h(x,y)&=&\displaystyle\int_{\mathbb{R}}u(x,y,\theta_y)d\t
 
 Hence, the fluorescent source $w_h(x,y)$ (that is, the fluorophores that have been excited) is given by
 
-$$w_h(x,y) = \nabla c \cdot \mu(x,y) \cdot v_h(x,y)$$
+$$w_h(x,y) = c \cdot \mu(x,y) \cdot v_h(x,y)$$
 
 ### Fluorescence step. Radiative transfer equation.
 
 Fluorophores excited will now be able to emit fluorescent light. Let $p_h(x,\theta)$ be the intensity of photons at point $x$ moving along the direction $\theta$ and coming from fluorophores when illuminating at height $h$. We consider that the transport of photons is governed by a linear transport equation with attenuation $a$ and source $w_h$:
 
 $$\begin{cases}\begin{array}{rl}
-\theta\cdot \nabla\_{x,y}p\_h(x,y,\theta) + a(x,y)p\_h(x,y,\theta) = w\_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1 \\\\
-
-\displaystyle\lim\_{t\to \infty}p\_h((x,y)-t\theta,\theta) = 0, & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1
+\theta \cdot \nabla_{x,y}p_h(x,y,\theta) + a(x,y)p_h(x,y,\theta) = w_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1 \\\\
+\displaystyle\lim_{t\to \infty}p_h((x,y)-t \theta,\theta) = 0, & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1
 \end{array}\end{cases}$$
 
 $$\begin{cases}\begin{array}{rl}
