@@ -3,12 +3,12 @@ title: Light Sheet Fluorescence Microscopy
 subtitle: "A stability result for the reconstruction of fluorophore distribution
   is established for the 2D Light Sheet Fluorescence Microscopy model. The
   result is equivalent to a Lipschitz-type stability for the reconstruction of
-  the initial temperature for the heat equation in $\\R$. "
+  the initial temperature for the heat equation in $\\mathbb{R}$. "
 date: 2021-02-23T02:28:58.054Z
 summary: "A stability result for the reconstruction of fluorophore distribution
   is established for the 2D Light Sheet Fluorescence Microscopy model. The
   result is equivalent to a Lipschitz-type stability for the reconstruction of
-  the initial temperature for the heat equation in $\\R$.  "
+  the initial temperature for the heat equation in $\\mathbb{R}$.  "
 draft: false
 featured: false
 image:
@@ -47,7 +47,7 @@ x\in(x_h,\infty), y\in \mathbb{R}, \theta_y\in \mathbb{R} &&
 
 But we are interested in the function $v_h(x,y)$ that describes the photon distribution independent of the angle $\theta_y$:
 
-$$v_h(x,y)=\dint_{\R}u(x,y,\theta_y)d\theta_y=\text{exp} \left(-\dint_{x_h}^x\lambda(\tau,h)d\tau\right) \dfrac{1}{\alpha(x,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(y-h)^2}{2\alpha^2(x,h)}\right)$$
+$$v_h(x,y)=\displaystyle\int_{\mathbb{R}}u(x,y,\theta_y)d\theta_y=\text{exp} \left(-\displaystyle\int_{x_h}^x\lambda(\tau,h)d\tau\right) \dfrac{1}{\alpha(x,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(y-h)^2}{2\alpha^2(x,h)}\right)$$
 
 Hence, the fluorescent source $w_h(x,y)$, that is, the fluorophores that have been excited, is given by
 
