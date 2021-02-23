@@ -74,7 +74,7 @@ The boundary condition states that there are no external sources. There exists a
 
 $$p_h(x,y,\boldsymbol{\theta}) = \displaystyle\int_{-\infty}^{0}w_h((x,y)+r\boldsymbol{\theta})\text{exp}\left(-\displaystyle\int_r^0a((x,y)+\tau\boldsymbol{\theta})d\tau\right)dr$$
 
-We are interested in what is measured in pixel $s$ ando, also, we assume that cameras are collimated. Hence, the final measurement is given by
+We are interested in what is measured in pixel $s$ and, also, we assume that cameras are collimated. Hence, the final measurement obtained at pixel $s$ when illuminating at height $h$ is given by the next expression:
 
 $$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right)\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr$$ 
 
