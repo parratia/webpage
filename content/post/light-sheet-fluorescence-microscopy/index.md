@@ -76,7 +76,7 @@ We are interested in what is measured in pixel $s$ and, also, we assume that cam
 $$
 \begin{equation}\label{eq:measurements}
 \begin{array}{rcl}
-p(s,h) & = & c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right) \cdot \\\\ \displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr
+p(s,h) & = & c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right) \cdot \\\\ &&\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr
 \end{array}
 \end{equation}
 $$ 
@@ -87,5 +87,15 @@ An example for measurements obtained when illuminating by left and right the sou
 
 ## The inverse problem and the heat equation.
 
-The inverse problem consists of reconstructing the fluorophore distribution $\mu$ from measurements $p(s,h)$. We suppose as known the functions $\lambda$, $a$ and $\psi$. The latter function may be seen as the convolution of $\mu(s,\cdot)\times e^{-\int_{\cdot}a(s,\tau)d\tau}$ with the heat kernel 
+The inverse problem consists of reconstructing the fluorophore distribution $\mu$ from measurements $p(s,h)$. We suppose as known the functions $\lambda$, $a$ and $\psi$. The latter function may be seen as the convolution of $\mu(s,\cdot)\cdot e^{-\int_{\cdot}a(s,\tau)d\tau}$ with the heat kernel. In fact, let $s$ fixed and define 
+
+$$
+\begin{array}{rcl}
+\sigma(y)&:=& \dfrac{1}{2}\alpha^2(s,y) = \dfrac{1}{2}\dint_{x_h}^s(s-\tau)^2\psi(\tau,y)d\tau\\
+f(r) & := & \mu(s,r)\text{exp}\left(-\displaystyle\int_r^{\infty}a(s,\tau)d\tau\right)\\ 
+g(y) &:=& \dfrac{1}{c}p(s,y)\text{exp}\left(\displaystyle\int_{x_h}^s\lambda(\tau,y)d\tau\right)
+\end{array}$$
+hence, 
+
+$$g(y) = \displaystyle\int_{\mathbb{R}}\dfrac{f(r)}{\sqrt{4\pi\sigma(y)}}\text{exp}\left(-\dfrac{(r-y)^2}{4\sigma(y)}\right)$$ 
 
