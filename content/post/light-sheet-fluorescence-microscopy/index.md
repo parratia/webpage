@@ -58,11 +58,11 @@ $$w_h(x,y) = c \cdot \mu(x,y) \cdot v_h(x,y)$$
 
 Fluorophores excited will now be able to emit fluorescent light. Let $p_h(x,\theta)$ be the intensity of photons at point $x$ moving along the direction $\theta$ and coming from fluorophores when illuminating at height $h$. We consider that the transport of photons is governed by a linear transport equation with attenuation $a$ and source $w_h$:
 
-\[\begin{cases}\begin{array}{rl}
-\theta\cdot \nabla_{x,y}p_h(x,y,\theta) + a(x,y)p_h(x,y,\theta) = w_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1 \\\\
+$$\begin{cases}\begin{array}{rl}
+\theta\cdot \nabla\_{x,y}p\_h(x,y,\theta) + a(x,y)p\_h(x,y,\theta) = w\_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1 \\\\
 
-\displaystyle\lim_{t\to \infty}p_h((x,y)-t\theta,\theta) = 0, & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1
-\end{array}\end{cases}\]
+\displaystyle\lim\_{t\to \infty}p\_h((x,y)-t\theta,\theta) = 0, & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1
+\end{array}\end{cases}$$
 
 $$\begin{cases}\begin{array}{rl}
 \boldsymbol{\theta}\cdot \nabla_{x,y}p_h(x,y,\boldsymbol{\theta}) + a(x,y)p_h(x,y,\boldsymbol{\theta}) = w_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \boldsymbol{\theta}\in \mathbb{S}^1 \\\\
