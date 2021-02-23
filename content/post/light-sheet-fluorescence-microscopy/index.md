@@ -109,12 +109,24 @@ u(y,0) & = & 0, & \text{si } y\notin Y_s, \\\\
 
 we have
 
-$$u(y,\sigma(y)) = \dint_{\R}\dfrac{f(r)}{\sqrt{4\pi \sigma(y)}}\text{exp}\left(-\dfrac{(y-r)^2}{4\sigma(y)}\right)dr = g(y)$$
+$$u(y,\sigma(y)) = \displaystyle\int_{\mathbb{R}}\dfrac{f(r)}{\sqrt{4\pi \sigma(y)}}\text{exp}\left(-\dfrac{(y-r)^2}{4\sigma(y)}\right)dr = g(y)$$
 
 That is, we can see $g$ as the measurements or available information, $f$ is the initial condition related to our unknown $\mu$ and $\sigma$ may be related to the time variable for the heat kernel. Thus 
 
 > The fluorophore distribution $\mu$ is related to the initial condition of the heat equation.
 
-Observations of $u$ are available on the curve $\Gamma:={(y,\sigma(y)): y\in Y_s}\subseteq \mathbb{R}\times[0,T+\infty)$, which turns out to have the following form:
+Observations of $u$ are available on the curve $\Gamma:=\{(y,\sigma(y)): y\in Y_s\}\subseteq \mathbb{R}\times[0,+\infty)$, which turns out to have the following form:
 
 {{< figure library="true" src="gamma.png" title="Measurements of $u$ are available on the curve $\Gamma$." numbered="true">}}
+
+### Uniqueness of the inverse problem
+
+By linearity, the uniqueness of the inverse problem is reduced to an injectivity result:
+
+> Theorem. Let $s$ be fixed. If $p(s,y)=0$ $\forall y \in Y_s$, then $\mu(s,y)=0$ $\forall y\in Y_s$.
+
+But this result is a direct consequence of a uniqueness result for the heat equation:
+
+> Theorem. Let $\sigma \in C^1_c(\mathbb{R})$ and $\Gamma = \{(t,y) \in \mathbb{R}^2: t=\sigma(y)\}$. Let $\underline{y}=inf(supp(\sigma))$ $\overline{y}=sup(supp(\sigma))$. Assume that there exists $\delta>0$ such that $\sigma'(y)>0$ in $(\underline{y},\underline{y}+\delta)$. Hence, if $u\equiv 0$ on $\Gamma$, then $u(\cdot,0)\equiv 0$.
+
+### Stability of the inverse problem
