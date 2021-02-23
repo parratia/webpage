@@ -67,19 +67,17 @@ $$\begin{cases}\begin{array}{rl}
 \displaystyle\lim_{t\to \infty}p_h((x,y)-t \theta,\theta) = 0, & \forall (x,y)\in \mathbb{R}^2, \theta\in \mathbb{S}^1
 \end{array}\end{cases}$$
 
-$$\begin{cases}\begin{array}{rl}
-\boldsymbol{\theta}\cdot \nabla_{x,y}p_h(x,y,\boldsymbol{\theta}) + a(x,y)p_h(x,y,\boldsymbol{\theta}) = w_h(x,y), & \forall (x,y)\in \mathbb{R}^2, \boldsymbol{\theta}\in \mathbb{S}^1 \\\\
-
-\displaystyle\lim_{t\to \infty}p_h((x,y)-t\boldsymbol{\theta},\boldsymbol{\theta}) = 0, & \forall (x,y)\in \mathbb{R}^2, \boldsymbol{\theta}\in \mathbb{S}^1
-\end{array}\end{cases}$$
-
 The boundary condition states that there are no external sources. There exists a unique solution for this equation: 
 
 $$p_h(x,y,\boldsymbol{\theta}) = \displaystyle\int_{-\infty}^{0}w_h((x,y)+r\boldsymbol{\theta})\text{exp}\left(-\displaystyle\int_r^0a((x,y)+\tau\boldsymbol{\theta})d\tau\right)dr$$
 
 We are interested in what is measured in pixel $s$ and, also, we assume that cameras are collimated. Hence, the final measurement obtained at pixel $s$ when illuminating at height $h$ is given by the next expression:
 
-$$p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right)\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr$$ 
+$$
+\begin{equation}\label{eq:measurements}
+p(s,h) = c\cdot\text{exp}\left(-\displaystyle\int_{x_h}^s\lambda(\tau,h)d\tau\right)\displaystyle\int_{-\infty}^{\infty}\dfrac{\mu(s,r)e^{-\int_{r}^{\infty}a(s,\tau)d\tau}}{\alpha(s,h)\sqrt{2\pi}}\text{exp}\left(-\dfrac{(r-h)^2}{2\alpha^2(s,h)}\right)dr
+\end{equation}
+$$ 
 
 An example for measurements obtained when illuminating by left and right the source in figure 2 and measuring with upper and lower cameras is given in the next figure:
 
