@@ -93,11 +93,24 @@ The inverse problem consists of reconstructing the fluorophore distribution $\mu
 
 $$
 \begin{array}{rcl}
-\sigma(y)&:=& \dfrac{1}{2}\alpha^2(s,y) = \dfrac{1}{2}\dint_{x_h}^s(s-\tau)^2\psi(\tau,y)d\tau\\
-f(r) & := & \mu(s,r)\text{exp}\left(-\displaystyle\int_r^{\infty}a(s,\tau)d\tau\right)\\ 
+\sigma(y)&:=& \dfrac{1}{2}\alpha^2(s,y) = \dfrac{1}{2}\displaystyle\int_{x_h}^s(s-\tau)^2\psi(\tau,y)d\tau\\\\
+f(r) & := & \mu(s,r)\text{exp}\left(-\displaystyle\int_r^{\infty}a(s,\tau)d\tau\right)\\\\ 
 g(y) &:=& \dfrac{1}{c}p(s,y)\text{exp}\left(\displaystyle\int_{x_h}^s\lambda(\tau,y)d\tau\right)
 \end{array}$$
 hence, 
-
 $$g(y) = \displaystyle\int_{\mathbb{R}}\dfrac{f(r)}{\sqrt{4\pi\sigma(y)}}\text{exp}\left(-\dfrac{(r-y)^2}{4\sigma(y)}\right)$$ 
 
+Thus, we may consider the heat equation in $\mathbb{R}$:
+
+$$\begin{cases}\begin{array}{rcll}
+u_t-u_{yy} &=& 0, & (y,t)\in \R\times (0,+\infty),\\
+u(y,0) & = & f(y), & \text{si } y\in Y_s,\\
+u(y,0) & = & 0, & \text{si } y\notin Y_s, \\
+\displaystyle\lim_{|y|\to \infty}u(y,t) & = & 0, & \forall t>0   
+\end{array}\end{cases}$$
+
+Hence,
+
+> The fluorophore distribution $\mu$ is related to the initial condition of the heat equation.
+
+In fact, we can see $g$ as the measurements, $f$ is the initial condition related to our unknown $\mu$ and $\sigma$ may be related to the time variable for the heat kernel.
