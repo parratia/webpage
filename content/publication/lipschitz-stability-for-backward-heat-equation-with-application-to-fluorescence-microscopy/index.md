@@ -30,7 +30,7 @@ abstract: In this work, we study a Lipschitz stability result in the
   presented based on the construction of a linear system for the inverse problem
   in Fluorescence Microscopy. We investigate the stability constant with the
   condition number of the corresponding matrix.
-draft: false
+draft: true
 featured: true
 image:
   filename: featured
