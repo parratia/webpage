@@ -127,6 +127,13 @@ By linearity, the uniqueness of the inverse problem is reduced to an injectivity
 
 But this result is a direct consequence of a uniqueness result for the heat equation:
 
-> Theorem. Let $\sigma \in C^1_c(\mathbb{R})$ and $\Gamma = \{(t,y) \in \mathbb{R}^2: t=\sigma(y)\}$. Let $\underline{y}=inf(supp(\sigma))$ $\overline{y}=sup(supp(\sigma))$. Assume that there exists $\delta>0$ such that $\sigma'(y)>0$ in $(\underline{y},\underline{y}+\delta)$. Hence, if $u\equiv 0$ on $\Gamma$, then $u(\cdot,0)\equiv 0$.
+> Theorem. Let $\sigma \in C^1_c(\mathbb{R})$ and $\Gamma = \{(t,y) \in \mathbb{R}^2: t=\sigma(y)\}$. Let $\underline{y}=inf(supp(\sigma))$ and $\overline{y}=sup(supp(\sigma))$. Assume that there exists $\delta>0$ such that $\sigma'(y)>0$ in $(\underline{y},\underline{y}+\delta)$. Hence, if $u\equiv 0$ on $\Gamma$, then $u(\cdot,0)\equiv 0$.
 
 ### Stability of the inverse problem
+
+A stronger (but harder) result than uniqueness is stability, which asks for the continuity of the inverse operator, that is if small changes in measurements lead to small changes in the respective fluorophore distributions. From the numerical point of view, stability is a critical point since mathematical models do not represent reality in a perfect way and the instruments used to measure may present noise. Thus, if the problem is not stable, the reconstructed solution may present huge differences from the original solution.  
+
+A logarithmic and a Lipschitz-type stability results are presented.
+
+> Theorem. Let $0<\beta<1$. Let $u$ be the solution of the heat equation in $\mathbb{R}^n$ with $u_0\in \mathcal{A}:=\{a\in H^{2\beta}(\mathbb{R}^n):||a||_{H^{2\beta}(\mathbb{R}^n)}\leq M\}$. Let $0\leq \tau<T$ and $\omega \subset \R^n$ be an open set with bounded complement such that $\omega\times(\tau,T)$ is the observation set. If $||u||_{L^2(\omega\times(\tau,T))}<1$, then for every $0<\varepsilon<(T-\tau)/2$, $\delta>0$ and $\theta\in(\tau+\varepsilon,T-\varepsilon)$ there exist constants $\kappa=\kappa(\beta)\in (0,1)$ and $C=C(\varepsilon,\delta,M,\theta)>0$ such that
+$$||u_0||_{L^2(\mathbb{R}^n)}\leq C\left(-log||u||_{L^2(\omega\times (\tau,T))}\right)^{-\kappa}$$
