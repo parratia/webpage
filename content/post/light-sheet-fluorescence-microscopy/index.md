@@ -135,7 +135,7 @@ A stronger (but harder) result than uniqueness is stability, which asks for the 
 
 A logarithmic and a Lipschitz-type stability results are presented.
 
-> Theorem. Let $0<\beta<1$. Let $u$ be the solution of the heat equation in $\mathbb{R}^n$ with $u_0 \in A=\{\, a\in H^{2\beta}(\mathbb{R}^n) \vert\vert a\vert\vert_{H^{2\beta}(\mathbb{R}^n)}\leq M\,\}$. Let $0\leq \tau<T$ and $\omega \subset \mathbb{R}^n$ be an open set with bounded complement such that $\omega\times(\tau,T)$ is the observation set. If $\vert\vert u\vert \vert_{L^2(\omega\times(\tau,T))}<1$, then for every $0<\varepsilon<(T-\tau)/2$, $\delta>0$ and $\theta\in(\tau+\varepsilon,T-\varepsilon)$ there exist constants $\kappa=\kappa(\beta)\in (0,1)$ and $C=C(\varepsilon,\delta,M,\theta)>0$ such that
+> Theorem. Let $0<\beta<1$. Let $u$ be the solution of the heat equation in $\mathbb{R}^n$ with $u_0 \in A=\{\{ a\in H^{2\beta}(\mathbb{R}^n) \vert\vert a\vert\vert_{H^{2\beta}(\mathbb{R}^n)}\leq M \}\}$. Let $0\leq \tau<T$ and $\omega \subset \mathbb{R}^n$ be an open set with bounded complement such that $\omega\times(\tau,T)$ is the observation set. If $\vert\vert u\vert \vert_{L^2(\omega\times(\tau,T))}<1$, then for every $0<\varepsilon<(T-\tau)/2$, $\delta>0$ and $\theta\in(\tau+\varepsilon,T-\varepsilon)$ there exist constants $\kappa=\kappa(\beta)\in (0,1)$ and $C=C(\varepsilon,\delta,M,\theta)>0$ such that
 $$\vert\vert u_0\vert\vert_{L^2(\mathbb{R}^n)}\leq C\left(-log\vert\vert u\vert\vert_{L^2(\omega\times (\tau,T))}\right)^{-\kappa}$$
 
 > Theorem. Let $0< t_1< t_2$ and $R>0$. Let $u_0 \in L^1(\mathbb{R}^n)$ such that $supp(u_0)\subset B:=B(0,R)$. Ther exists a constant $C>0$ such that 
