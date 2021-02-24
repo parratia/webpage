@@ -141,5 +141,4 @@ $$\vert\vert u_0\vert\vert_{L^2(\mathbb{R}^n)}\leq C\left(-log\vert\vert u\vert\
 The previous theorem would allow us to conclude a logarithmic-type stability for the LSFM inverse problem. However, there is a hypothesis that may improve the result, which is that in the LSFM model, the initial condition is compactly supported. This additional hypothesis gives a Lipschitz-type stability result:
 
 > Theorem. For $R>0$ we define $B:=B(0,R)$ the ball of radius $R$ and centered at the origin. Let $0\leq\tau<T$ and $\omega\subseteq\mathbb{R}^n$ be such that $\mathbb{R}^n\backslash\omega$ is compact and $B\subseteq \mathbb{R}^n\backslash \omega$. Let $u_0\in L^1(\mathbb{R}^n)$ be with $supp(u_0)\subseteq B$ and $u$ be the respective solution of the heat equation. Then there exists a constant $C=C(R,\tau,T,\omega)>0$ such that
-
 $$\vert\vert u_0\vert\vert_{L^1(\mathbb{R}^n)}\leq C\vert\vert u\vert\vert_{L^2(\omega\times(\tau,T))}$$
