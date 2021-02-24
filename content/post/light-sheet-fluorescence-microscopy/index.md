@@ -139,4 +139,4 @@ A logarithmic and a Lipschitz-type stability results are presented.
 $$||u_0||_{L^2(\mathbb{R}^n)}\leq C\left(-log||u||_{L^2(\omega\times (\tau,T))}\right)^{-\kappa}$$
 
 > Theorem. Let $0< t_1< t_2$ and $R>0$. Let $u_0 \in L^1(\mathbb{R}^n)$ such that $supp(u_0)\subset B:=B(0,R)$. Ther exists a constant $C>0$ such that 
-$$||u_0||_{L^1(\mathbb{R}^n)}\leq C ||u||_{L^2(2B\times(t_1,t_2))}$$
+$$\|\|u_0\|\|_{L^1(\mathbb{R}^n)}\leq C \|\|u\|\|_{L^2(2B\times(t_1,t_2))}$$
