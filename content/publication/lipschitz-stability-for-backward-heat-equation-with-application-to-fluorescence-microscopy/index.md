@@ -9,6 +9,7 @@ authors:
   - Evelyn Cueva
   - Axel Osses
   - Benjamín Palacios
+publication: In arXiv
 abstract: In this work, we study a Lipschitz stability result in the
   reconstruction of a compactly supported initial temperature for the heat
   equation in $\mathbb{R}^n$, from measurements along a positive time interval
@@ -30,7 +31,7 @@ abstract: In this work, we study a Lipschitz stability result in the
   presented based on the construction of a linear system for the inverse problem
   in Fluorescence Microscopy. We investigate the stability constant with the
   condition number of the corresponding matrix.
-draft: true
+draft: false
 featured: true
 image:
   filename: featured
