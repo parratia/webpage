@@ -2,7 +2,6 @@
 title: Lipschitz stability for backward heat equation with application to
   fluorescence microscopy.
 publication_types:
-  - "0"
   - "3"
 authors:
   - Pablo Arratia
@@ -31,8 +30,8 @@ abstract: In this work, we study a Lipschitz stability result in the
   presented based on the construction of a linear system for the inverse problem
   in Fluorescence Microscopy. We investigate the stability constant with the
   condition number of the corresponding matrix.
-draft: true
-featured: false
+draft: false
+featured: true
 image:
   filename: featured
   focal_point: Smart
