@@ -18,7 +18,7 @@ image:
 ---
 ## Overview
 
-This post describes in a non-rigorous way the research developed during my MSc thesis in applied mathematics. The inverse problem that I shall explain was firstly established by Evelyn Cueva in her PhD thesis, where she also solved numerically this problem and a uniqueness theoretical result was demonstrated. My work consisted of demonstrating the stability of the inverse problem but I also proposed a new numerical algorithm based on deep learning techniques.
+This post describes in a non-rigorous way the research developed during my MSc thesis in applied mathematics. The inverse problem that I shall explain was firstly established by Evelyn Cueva in her PhD thesis, where she also solved numerically this problem and a uniqueness theoretical result was demonstrated. My work consisted of demonstrating the stability of the inverse problem but I also proposed a new numerical algorithm based on deep learning techniques. This research led to an article that may be found [here](https://www.researchgate.net/publication/346614431_Lipschitz_stability_for_Backward_Heat_Equation_with_application_to_Fluorescence_Microscopy#fullTextFileContent)
 
 {{< icon name="download" pack="fas" >}} {{% staticref "media/presentacion_cortada.pdf" "newtab" %}}You may download the presentation (in spanish) of my thesis here.{{% /staticref %}}  
 
